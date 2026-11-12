@@ -1,0 +1,134 @@
+[
+ {
+  "name": "stripe",
+  "employer": "Stripe",
+  "ats": "greenhouse",
+  "token": "stripe"
+ },
+ {
+  "name": "robinhood",
+  "employer": "Robinhood",
+  "ats": "greenhouse",
+  "token": "robinhood"
+ },
+ {
+  "name": "coinbase",
+  "employer": "Coinbase",
+  "ats": "greenhouse",
+  "token": "coinbase"
+ },
+ {
+  "name": "airbnb",
+  "employer": "Airbnb",
+  "ats": "greenhouse",
+  "token": "airbnb"
+ },
+ {
+  "name": "affirm",
+  "employer": "Affirm",
+  "ats": "greenhouse",
+  "token": "affirm"
+ },
+ {
+  "name": "chime",
+  "employer": "Chime",
+  "ats": "greenhouse",
+  "token": "chime"
+ },
+ {
+  "name": "brex",
+  "employer": "Brex",
+  "ats": "greenhouse",
+  "token": "brex"
+ },
+ {
+  "name": "marqeta",
+  "employer": "Marqeta",
+  "ats": "greenhouse",
+  "token": "marqeta"
+ },
+ {
+  "name": "carta",
+  "employer": "Carta",
+  "ats": "greenhouse",
+  "token": "carta"
+ },
+ {
+  "name": "betterment",
+  "employer": "Betterment",
+  "ats": "greenhouse",
+  "token": "betterment"
+ },
+ {
+  "name": "gusto",
+  "employer": "Gusto",
+  "ats": "greenhouse",
+  "token": "gusto"
+ },
+ {
+  "name": "upstart",
+  "employer": "Upstart",
+  "ats": "greenhouse",
+  "token": "upstart"
+ },
+ {
+  "name": "dropbox",
+  "employer": "Dropbox",
+  "ats": "greenhouse",
+  "token": "dropbox"
+ },
+ {
+  "name": "databricks",
+  "employer": "Databricks",
+  "ats": "greenhouse",
+  "token": "databricks"
+ },
+ {
+  "name": "twilio",
+  "employer": "Twilio",
+  "ats": "greenhouse",
+  "token": "twilio"
+ },
+ {
+  "name": "figma",
+  "employer": "Figma",
+  "ats": "greenhouse",
+  "token": "figma"
+ },
+ {
+  "name": "plaid",
+  "employer": "Plaid",
+  "ats": "lever",
+  "token": "plaid"
+ },
+ {
+  "name": "palantir",
+  "employer": "Palantir",
+  "ats": "lever",
+  "token": "palantir"
+ },
+ {
+  "name": "spotify",
+  "employer": "Spotify",
+  "ats": "lever",
+  "token": "spotify"
+ },
+ {
+  "name": "ramp",
+  "employer": "Ramp",
+  "ats": "ashby",
+  "token": "ramp"
+ },
+ {
+  "name": "notion",
+  "employer": "Notion",
+  "ats": "ashby",
+  "token": "notion"
+ },
+ {
+  "name": "openai",
+  "employer": "OpenAI",
+  "ats": "ashby",
+  "token": "openai"
+ }
+]
