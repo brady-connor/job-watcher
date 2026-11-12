@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browse - Job Watcher</title>
+<meta name="theme-color" content="#12263a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="nav"></nav>
+<main>
+<h1>Browse open postings</h1>
+<p id="msg" class="msg" hidden></p>
+<div class="controls">
+  <label>Show<span class="seg" id="role"><button class="on" data-v="role">In my role</button><button data-v="all">All postings</button></span></label>
+  <label>Employer<select id="employer"><option value="">All employers</option></select></label>
+  <label>Location contains<input id="loc" type="search" placeholder="e.g. New York"></label>
+  <label>Days open<select id="days"><option value="">Any</option><option value="7">7 or fewer</option><option value="14">14 or fewer</option><option value="30">30 or fewer</option><option value="60">60 or fewer</option></select></label>
+  <label>Search titles<input id="q" type="search" placeholder="e.g. data analyst"></label>
+  <label>Sort by first seen<select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+  <label>Shortlist<span><input id="short" type="checkbox"> Only starred (<span id="shortcount">0</span>)</span></label>
+</div>
+<p class="muted" id="count"></p>
+<div class="wrap"><table>
+<thead><tr><th>Star</th><th>Title</th><th>Employer</th><th>Location</th><th>First seen</th><th>Days open</th><th>Apply</th></tr></thead>
+<tbody id="rows"></tbody></table></div>
+<button id="more" class="more" hidden>Show more</button>
+</main>
+<script src="app.js"></script>
+<script src="browse.js"></script>
+</body>
+</html>
