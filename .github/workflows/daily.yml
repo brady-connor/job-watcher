@@ -1,0 +1,34 @@
+name: daily
+on:
+  schedule:
+    - cron: "17 6 * * *"      # every day at 06:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: daily
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch, build history, write status
+        run: python -m watcher.pipeline
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Daily run $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase
+          git push
+      - name: Open today's issue and close the previous one
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m watcher.issue
