@@ -1,10 +1,10 @@
 {
-  "run_time": "2026-11-13T14:41:26Z",
+  "run_time": "2026-11-14T13:38:51Z",
   "first_run_date": "2026-11-13",
-  "days_with_success": 1,
-  "open": 5037,
-  "new_today": 0,
-  "removed_today": 0,
+  "days_with_success": 2,
+  "open": 5029,
+  "new_today": 68,
+  "removed_today": 76,
   "sources": [
     {
       "name": "stripe",
@@ -14,12 +14,12 @@
     {
       "name": "robinhood",
       "ok": true,
-      "count": 160
+      "count": 165
     },
     {
       "name": "coinbase",
       "ok": true,
-      "count": 269
+      "count": 265
     },
     {
       "name": "airbnb",
@@ -29,17 +29,17 @@
     {
       "name": "affirm",
       "ok": true,
-      "count": 221
+      "count": 217
     },
     {
       "name": "chime",
       "ok": true,
-      "count": 68
+      "count": 71
     },
     {
       "name": "brex",
       "ok": true,
-      "count": 283
+      "count": 286
     },
     {
       "name": "marqeta",
@@ -49,7 +49,7 @@
     {
       "name": "carta",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "name": "betterment",
@@ -59,32 +59,32 @@
     {
       "name": "gusto",
       "ok": true,
-      "count": 76
+      "count": 75
     },
     {
       "name": "upstart",
       "ok": true,
-      "count": 79
+      "count": 77
     },
     {
       "name": "dropbox",
       "ok": true,
-      "count": 42
+      "count": 44
     },
     {
       "name": "databricks",
       "ok": true,
-      "count": 909
+      "count": 896
     },
     {
       "name": "twilio",
       "ok": true,
-      "count": 116
+      "count": 115
     },
     {
       "name": "figma",
       "ok": true,
-      "count": 143
+      "count": 139
     },
     {
       "name": "plaid",
@@ -94,12 +94,12 @@
     {
       "name": "palantir",
       "ok": true,
-      "count": 301
+      "count": 302
     },
     {
       "name": "spotify",
       "ok": true,
-      "count": 85
+      "count": 87
     },
     {
       "name": "ramp",
@@ -109,12 +109,12 @@
     {
       "name": "notion",
       "ok": true,
-      "count": 167
+      "count": 166
     },
     {
       "name": "openai",
       "ok": true,
-      "count": 833
+      "count": 838
     }
   ]
 }

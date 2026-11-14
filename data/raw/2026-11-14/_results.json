@@ -1,0 +1,114 @@
+[
+ {
+  "name": "stripe",
+  "ok": true,
+  "count": 786
+ },
+ {
+  "name": "robinhood",
+  "ok": true,
+  "count": 165
+ },
+ {
+  "name": "coinbase",
+  "ok": true,
+  "count": 265
+ },
+ {
+  "name": "airbnb",
+  "ok": true,
+  "count": 214
+ },
+ {
+  "name": "affirm",
+  "ok": true,
+  "count": 217
+ },
+ {
+  "name": "chime",
+  "ok": true,
+  "count": 71
+ },
+ {
+  "name": "brex",
+  "ok": true,
+  "count": 286
+ },
+ {
+  "name": "marqeta",
+  "ok": false,
+  "count": 0,
+  "error": "404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/marqeta/jobs"
+ },
+ {
+  "name": "carta",
+  "ok": true,
+  "count": 78
+ },
+ {
+  "name": "betterment",
+  "ok": true,
+  "count": 28
+ },
+ {
+  "name": "gusto",
+  "ok": true,
+  "count": 75
+ },
+ {
+  "name": "upstart",
+  "ok": true,
+  "count": 77
+ },
+ {
+  "name": "dropbox",
+  "ok": true,
+  "count": 44
+ },
+ {
+  "name": "databricks",
+  "ok": true,
+  "count": 896
+ },
+ {
+  "name": "twilio",
+  "ok": true,
+  "count": 115
+ },
+ {
+  "name": "figma",
+  "ok": true,
+  "count": 139
+ },
+ {
+  "name": "plaid",
+  "ok": false,
+  "count": 0,
+  "error": "404 Client Error: Not Found for url: https://api.lever.co/v0/postings/plaid?mode=json"
+ },
+ {
+  "name": "palantir",
+  "ok": true,
+  "count": 302
+ },
+ {
+  "name": "spotify",
+  "ok": true,
+  "count": 87
+ },
+ {
+  "name": "ramp",
+  "ok": true,
+  "count": 180
+ },
+ {
+  "name": "notion",
+  "ok": true,
+  "count": 166
+ },
+ {
+  "name": "openai",
+  "ok": true,
+  "count": 838
+ }
+]
