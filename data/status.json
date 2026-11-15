@@ -1,15 +1,15 @@
 {
-  "run_time": "2026-11-14T13:38:51Z",
+  "run_time": "2026-11-15T14:02:50Z",
   "first_run_date": "2026-11-13",
-  "days_with_success": 2,
-  "open": 5029,
-  "new_today": 68,
-  "removed_today": 76,
+  "days_with_success": 3,
+  "open": 5027,
+  "new_today": 3,
+  "removed_today": 5,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 786
+      "count": 785
     },
     {
       "name": "robinhood",
@@ -74,12 +74,12 @@
     {
       "name": "databricks",
       "ok": true,
-      "count": 896
+      "count": 895
     },
     {
       "name": "twilio",
       "ok": true,
-      "count": 115
+      "count": 114
     },
     {
       "name": "figma",
@@ -109,12 +109,12 @@
     {
       "name": "notion",
       "ok": true,
-      "count": 166
+      "count": 165
     },
     {
       "name": "openai",
       "ok": true,
-      "count": 838
+      "count": 840
     }
   ]
 }
