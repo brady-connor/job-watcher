@@ -1,30 +1,30 @@
 {
-  "run_time": "2026-11-15T14:02:50Z",
+  "run_time": "2026-11-16T15:59:46Z",
   "first_run_date": "2026-11-13",
-  "days_with_success": 3,
-  "open": 5027,
-  "new_today": 3,
-  "removed_today": 5,
+  "days_with_success": 4,
+  "open": 5003,
+  "new_today": 15,
+  "removed_today": 39,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 785
+      "count": 788
     },
     {
       "name": "robinhood",
       "ok": true,
-      "count": 165
+      "count": 166
     },
     {
       "name": "coinbase",
       "ok": true,
-      "count": 265
+      "count": 260
     },
     {
       "name": "airbnb",
       "ok": true,
-      "count": 214
+      "count": 208
     },
     {
       "name": "affirm",
@@ -34,7 +34,7 @@
     {
       "name": "chime",
       "ok": true,
-      "count": 71
+      "count": 70
     },
     {
       "name": "brex",
@@ -49,7 +49,7 @@
     {
       "name": "carta",
       "ok": true,
-      "count": 78
+      "count": 76
     },
     {
       "name": "betterment",
@@ -59,7 +59,7 @@
     {
       "name": "gusto",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "name": "upstart",
@@ -74,12 +74,12 @@
     {
       "name": "databricks",
       "ok": true,
-      "count": 895
+      "count": 890
     },
     {
       "name": "twilio",
       "ok": true,
-      "count": 114
+      "count": 110
     },
     {
       "name": "figma",
@@ -104,7 +104,7 @@
     {
       "name": "ramp",
       "ok": true,
-      "count": 180
+      "count": 179
     },
     {
       "name": "notion",
@@ -114,7 +114,7 @@
     {
       "name": "openai",
       "ok": true,
-      "count": 840
+      "count": 835
     }
   ]
 }
