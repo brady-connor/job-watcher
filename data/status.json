@@ -1,10 +1,10 @@
 {
-  "run_time": "2026-11-17T16:10:45Z",
+  "run_time": "2026-11-18T15:47:15Z",
   "first_run_date": "2026-11-13",
-  "days_with_success": 5,
-  "open": 4998,
-  "new_today": 102,
-  "removed_today": 109,
+  "days_with_success": 6,
+  "open": 5006,
+  "new_today": 104,
+  "removed_today": 105,
   "sources": [
     {
       "name": "stripe",
@@ -14,22 +14,22 @@
     {
       "name": "robinhood",
       "ok": true,
-      "count": 165
+      "count": 166
     },
     {
       "name": "coinbase",
       "ok": true,
-      "count": 259
+      "count": 255
     },
     {
       "name": "airbnb",
       "ok": true,
-      "count": 204
+      "count": 201
     },
     {
       "name": "affirm",
       "ok": true,
-      "count": 213
+      "count": 225
     },
     {
       "name": "chime",
@@ -39,7 +39,7 @@
     {
       "name": "brex",
       "ok": true,
-      "count": 274
+      "count": 266
     },
     {
       "name": "marqeta",
@@ -49,7 +49,7 @@
     {
       "name": "carta",
       "ok": true,
-      "count": 78
+      "count": 77
     },
     {
       "name": "betterment",
@@ -69,22 +69,22 @@
     {
       "name": "dropbox",
       "ok": true,
-      "count": 41
+      "count": 38
     },
     {
       "name": "databricks",
       "ok": true,
-      "count": 895
+      "count": 897
     },
     {
       "name": "twilio",
       "ok": true,
-      "count": 109
+      "count": 113
     },
     {
       "name": "figma",
       "ok": true,
-      "count": 140
+      "count": 143
     },
     {
       "name": "plaid",
@@ -94,27 +94,27 @@
     {
       "name": "palantir",
       "ok": true,
-      "count": 303
+      "count": 302
     },
     {
       "name": "spotify",
       "ok": true,
-      "count": 87
+      "count": 91
     },
     {
       "name": "ramp",
       "ok": true,
-      "count": 179
+      "count": 181
     },
     {
       "name": "notion",
       "ok": true,
-      "count": 165
+      "count": 167
     },
     {
       "name": "openai",
       "ok": true,
-      "count": 840
+      "count": 838
     }
   ]
 }
