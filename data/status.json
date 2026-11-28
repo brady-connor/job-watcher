@@ -1,20 +1,20 @@
 {
-  "run_time": "2026-11-27T16:46:50Z",
+  "run_time": "2026-11-28T15:39:32Z",
   "first_run_date": "2026-11-13",
-  "days_with_success": 15,
-  "open": 5034,
-  "new_today": 19,
-  "removed_today": 24,
+  "days_with_success": 16,
+  "open": 5041,
+  "new_today": 9,
+  "removed_today": 6,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 765
+      "count": 771
     },
     {
       "name": "robinhood",
       "ok": true,
-      "count": 161
+      "count": 162
     },
     {
       "name": "coinbase",
@@ -54,12 +54,12 @@
     {
       "name": "betterment",
       "ok": true,
-      "count": 23
+      "count": 22
     },
     {
       "name": "gusto",
       "ok": true,
-      "count": 86
+      "count": 85
     },
     {
       "name": "upstart",
@@ -99,7 +99,7 @@
     {
       "name": "spotify",
       "ok": true,
-      "count": 97
+      "count": 98
     },
     {
       "name": "ramp",
@@ -114,7 +114,7 @@
     {
       "name": "openai",
       "ok": true,
-      "count": 875
+      "count": 876
     }
   ]
 }
